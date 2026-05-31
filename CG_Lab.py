@@ -1,28 +1,3 @@
-"""
-The Glowing Neon Sign Mandala
-==============================
-Replicates the reference image: a neon sign mandala on a dark brick-wall
-background, using only Python's turtle and math modules.
-
-Color palette (matching the photo):
-  - Electric cyan  (#00E5FF) — outer star outline, inner circle, centre flower
-  - Glowing gold   (#FFE033) — lotus petal rings, inner rim
-  - Neon green     (#39FF14) — decorative arcs, vein lines, small accents
-  - White          (#FFFFFF) — thin glow overlay on every stroke
-
-Structure (8-fold symmetry throughout):
-  1. Brick-wall background (dark navy rectangles)
-  2. Outer 8-point cyan star
-  3. Large gold lotus petals  (8 petals)
-  4. Cyan rim circle
-  5. Inner gold petal ring    (8 petals, rotated 22.5°)
-  6. Gold inner circle
-  7. Green vein lines through each outer petal
-  8. Green decorative U-arcs between star tips
-  9. Centre 5-petal cyan flower
- 10. Bright white centre dot
-"""
-
 import turtle
 import math
 screen = turtle.Screen()
